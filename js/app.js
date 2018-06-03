@@ -108,7 +108,6 @@ var Calculadora ={
 			Calculadora.numero=display.innerHTML;
 			Calculadora.operacion="sumar";
 			Calculadora.Show("");
-			//alert("["+Calculadora.numero+"]\n["+Calculadora.ultimoInput+"]\n["+display.innerHTML+"]");
 		},
 		OnRestar(e){
 			if(Calculadora.numero!="" && Calculadora.operacion=="restar"){
@@ -166,7 +165,6 @@ var Calculadora ={
 			}
 			Calculadora.Show(r.toString());
 			Calculadora.numero=r;
-		//	alert("["+Calculadora.numero+"]\n["+Calculadora.ultimoInput+"]\n["+display.innerHTML+"]");
 		}
 };
 
